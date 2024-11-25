@@ -301,10 +301,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Germany_None_hy2_2
+- name: France_None_hy2_2
   type: hysteria2
-  server: 146.0.36.114
-  port: 12345
+  server: 195.154.33.70
+  port: 42259
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -317,10 +317,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: Germany_None_hy2_4
+- name: France_None_hy2_4
   type: hysteria2
-  server: 146.0.36.114
-  port: 12345
+  server: 195.154.33.70
+  port: 42259
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -391,9 +391,9 @@ proxy-groups:
   - United States_Los Angeles_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
-  - Germany_None_hy2_2
+  - France_None_hy2_2
   - France_None_hy2_3
-  - Germany_None_hy2_4
+  - France_None_hy2_4
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - United States_Los Angeles_hy2_7
@@ -426,9 +426,9 @@ proxy-groups:
   - United States_Los Angeles_hy_7
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
-  - Germany_None_hy2_2
+  - France_None_hy2_2
   - France_None_hy2_3
-  - Germany_None_hy2_4
+  - France_None_hy2_4
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - United States_Los Angeles_hy2_7
