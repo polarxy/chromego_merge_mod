@@ -70,35 +70,32 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Neihu District_hysteria_41
+- name: France_Compiègne_hysteria_41
   type: hysteria
-  server: 2.0035961.xyz
-  port: 19627
-  auth_str: dongtaiwang.com
+  server: 195.154.217.220
+  port: 41934
+  auth-str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: www.bing.com
+  protocol: udp
+  up: 100 Mbps
+  down: 50 Mbps
+- name: France_Compiègne_hysteria_51
+  type: hysteria
+  server: 195.154.217.220
+  port: 41934
+  auth-str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  sni: bing.com
   skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: None_None_vmess_51
-  type: vmess
-  server: 104.21.238.100
-  port: 443
-  uuid: 2c15ec31-54f6-4cc7-aa9b-e906c6889bab
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: xray2.6016725.xyz
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: xray2.6016725.xyz
-    early-data-header-name: Sec-WebSocket-Protocol
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 100 Mbps
+  down: 50 Mbps
 - name: France_Paris_hysteria_61
   type: hysteria
   server: 195.154.200.40
@@ -122,55 +119,56 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Neihu District_hysteria_81
+- name: France_Paris_hysteria_81
   type: hysteria
-  server: 2.0035961.xyz
-  port: 19627
-  auth_str: dongtaiwang.com
+  server: 195.154.200.178
+  port: 10312
+  auth-str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: www.bing.com
-  skip-cert-verify: true
+  protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Taiwan_Keelung_hysteria_91
+- name: France_Paris_hysteria_91
   type: hysteria
-  server: 1.0035961.xyz
-  port: 15806
-  auth_str: dongtaiwang.com
+  server: 195.154.200.178
+  port: 10312
+  auth-str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: www.bing.com
-  skip-cert-verify: true
+  protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: None_None_vmess_101
-  type: vmess
-  server: 104.21.238.100
-  port: 443
-  uuid: 2c15ec31-54f6-4cc7-aa9b-e906c6889bab
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: xray2.6016725.xyz
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: xray2.6016725.xyz
-    early-data-header-name: Sec-WebSocket-Protocol
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: Taiwan_Keelung_hysteria_111
+- name: France_Paris_hysteria_101
   type: hysteria
-  server: 1.0035961.xyz
-  port: 15806
-  auth_str: dongtaiwang.com
+  server: 195.154.200.178
+  port: 10312
+  auth-str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  sni: www.bing.com
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: France_Paris_hysteria_111
+  type: hysteria
+  server: 195.154.200.178
+  port: 10312
+  auth-str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  sni: bing.com
   skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
   up: 11 Mbps
   down: 55 Mbps
 - name: United States_Los Angeles_hy_0
@@ -373,14 +371,14 @@ proxy-groups:
   - Taiwan_Keelung_hysteria_11
   - Taiwan_Keelung_hysteria_21
   - France_Paris_hysteria_31
-  - Taiwan_Neihu District_hysteria_41
-  - None_None_vmess_51
+  - France_Compiègne_hysteria_41
+  - France_Compiègne_hysteria_51
   - France_Paris_hysteria_61
   - France_None_hysteria_71
-  - Taiwan_Neihu District_hysteria_81
-  - Taiwan_Keelung_hysteria_91
-  - None_None_vmess_101
-  - Taiwan_Keelung_hysteria_111
+  - France_Paris_hysteria_81
+  - France_Paris_hysteria_91
+  - France_Paris_hysteria_101
+  - France_Paris_hysteria_111
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - France_Paris_hy_2
@@ -408,14 +406,14 @@ proxy-groups:
   - Taiwan_Keelung_hysteria_11
   - Taiwan_Keelung_hysteria_21
   - France_Paris_hysteria_31
-  - Taiwan_Neihu District_hysteria_41
-  - None_None_vmess_51
+  - France_Compiègne_hysteria_41
+  - France_Compiègne_hysteria_51
   - France_Paris_hysteria_61
   - France_None_hysteria_71
-  - Taiwan_Neihu District_hysteria_81
-  - Taiwan_Keelung_hysteria_91
-  - None_None_vmess_101
-  - Taiwan_Keelung_hysteria_111
+  - France_Paris_hysteria_81
+  - France_Paris_hysteria_91
+  - France_Paris_hysteria_101
+  - France_Paris_hysteria_111
   - United States_Los Angeles_hy_0
   - United States_Los Angeles_hy_1
   - France_Paris_hy_2
