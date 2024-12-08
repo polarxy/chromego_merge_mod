@@ -351,20 +351,6 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: United States_Los Angeles_reality_2
-  type: vless
-  server: 154.29.159.166
-  port: 23834
-  uuid: bb3b7497-0b55-4db9-97fe-864ee935927c
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: www.yahoo.com
-  reality-opts:
-    public-key: ebaPx4G9szFAKvm8945SScBUF4noBZ6L0q1_oCsy_0g
-    short-id: 5a29caea
 proxy-groups:
 - name: 节点选择
   type: select
@@ -399,7 +385,6 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - United States_Los Angeles_hy2_7
-  - United States_Los Angeles_reality_2
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -434,7 +419,6 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - United States_Los Angeles_hy2_7
-  - United States_Los Angeles_reality_2
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
