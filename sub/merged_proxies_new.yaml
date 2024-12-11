@@ -25,11 +25,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: France_None_hysteria_01
+- name: United States_Atlanta_hysteria_01
   type: hysteria
-  server: 51.15.10.149
-  port: 36474
-  ports: 40000-50000
+  server: 207.174.28.39
+  port: 51165
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -357,7 +357,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - France_None_hysteria_01
+  - United States_Atlanta_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
   - France_Paris_hysteria_31
@@ -391,7 +391,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - France_None_hysteria_01
+  - United States_Atlanta_hysteria_01
   - France_Paris_hysteria_11
   - United States_Los Angeles_hysteria_21
   - France_Paris_hysteria_31
