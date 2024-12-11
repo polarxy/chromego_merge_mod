@@ -111,11 +111,11 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: France_None_hysteria_71
+- name: United States_Atlanta_hysteria_71
   type: hysteria
-  server: 51.15.10.149
-  port: 36474
-  ports: 40000-50000
+  server: 207.174.28.39
+  port: 51165
+  ports: 30000-40000
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -364,7 +364,7 @@ proxy-groups:
   - France_Paris_hysteria_41
   - United States_Los Angeles_hysteria_51
   - France_Paris_hysteria_61
-  - France_None_hysteria_71
+  - United States_Atlanta_hysteria_71
   - France_Paris_hysteria_81
   - France_Paris_hysteria_91
   - United States_Los Angeles_hysteria_101
@@ -398,7 +398,7 @@ proxy-groups:
   - France_Paris_hysteria_41
   - United States_Los Angeles_hysteria_51
   - France_Paris_hysteria_61
-  - France_None_hysteria_71
+  - United States_Atlanta_hysteria_71
   - France_Paris_hysteria_81
   - France_Paris_hysteria_91
   - United States_Los Angeles_hysteria_101
