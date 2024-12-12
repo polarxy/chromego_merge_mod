@@ -351,6 +351,76 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: Russia_Moscow_reality_2
+  type: vless
+  server: 185.22.153.75
+  port: 21315
+  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
+    short-id: d019a9ad
+- name: Russia_None_reality_3
+  type: vless
+  server: 185.22.155.105
+  port: 34077
+  uuid: 2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: aws.amazon.com
+  reality-opts:
+    public-key: XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0
+    short-id: ''
+- name: Russia_Moscow_reality_4
+  type: vless
+  server: 185.22.153.75
+  port: 21315
+  uuid: 095ad0e3-9ed9-4346-9108-58b40e664f5c
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8
+    short-id: d019a9ad
+- name: Russia_None_reality_6
+  type: vless
+  server: 185.22.155.105
+  port: 34077
+  uuid: 2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: aws.amazon.com
+  reality-opts:
+    public-key: XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0
+    short-id: ''
+- name: Russia_None_reality_7
+  type: vless
+  server: 185.22.155.105
+  port: 34077
+  uuid: 2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: aws.amazon.com
+  reality-opts:
+    public-key: XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0
+    short-id: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -385,6 +455,11 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - United States_Los Angeles_hy2_7
+  - Russia_Moscow_reality_2
+  - Russia_None_reality_3
+  - Russia_Moscow_reality_4
+  - Russia_None_reality_6
+  - Russia_None_reality_7
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -419,6 +494,11 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - United States_Los Angeles_hy2_7
+  - Russia_Moscow_reality_2
+  - Russia_None_reality_3
+  - Russia_Moscow_reality_4
+  - Russia_None_reality_6
+  - Russia_None_reality_7
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
