@@ -351,6 +351,20 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: Russia_None_reality_1
+  type: vless
+  server: 185.22.155.105
+  port: 34077
+  uuid: 2349e5ae-2f2e-41bb-a169-a0b4c9dcd3e9
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: aws.amazon.com
+  reality-opts:
+    public-key: XENnre8gNAN68H0IBlu_G33iCGC4IIO2nHnxV90kdE0
+    short-id: ''
 - name: Russia_Moscow_reality_2
   type: vless
   server: 185.22.153.75
@@ -455,6 +469,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - United States_Los Angeles_hy2_7
+  - Russia_None_reality_1
   - Russia_Moscow_reality_2
   - Russia_None_reality_3
   - Russia_Moscow_reality_4
@@ -494,6 +509,7 @@ proxy-groups:
   - United States_Los Angeles_hy2_5
   - France_None_hy2_6
   - United States_Los Angeles_hy2_7
+  - Russia_None_reality_1
   - Russia_Moscow_reality_2
   - Russia_None_reality_3
   - Russia_Moscow_reality_4
